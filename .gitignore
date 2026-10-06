@@ -1,0 +1,23 @@
+# ---- 数据与输出（可用脚本重新生成，不入库）----
+data/
+output/
+!output/.gitkeep
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.venv/
+venv/
+env/
+env.bak/
+.ipynb_checkpoints/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*~
